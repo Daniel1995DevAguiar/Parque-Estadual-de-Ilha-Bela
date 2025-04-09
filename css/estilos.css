@@ -1,0 +1,185 @@
+/*INICIO ESTILOS GLOBAIS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: tahoma;
+    background-color: rgb(40, 125, 236);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p,
+a {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+}
+
+section {
+    width: 61%;
+}
+
+header,
+section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1,
+section h2,
+section h3,
+section p {
+    margin: 10px 0;
+}
+
+h1,
+h2,
+h3 {
+    background-color: red;
+    padding: 20px 0;
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+}
+
+h2:hover,
+h3:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+header img {
+    border: 2px solid black;
+}
+
+a {
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    padding: 0 10px;
+}
+
+a:hover {
+    background-color: rgb(0, 255, 0);
+    color: black;
+}
+
+/*FIM ESTILOS GLOBAIS*/
+
+/*INICIO MEDIA QUERIES DISPOSITIVOS ENTRE 320PX ATÉ 425PX*/
+@media (min-width: 320px) and (max-width: 425px) {
+
+    /*INICIO ESTILOS GLOBAIS*/
+    header h1 {
+        font-size: 19px;
+        margin: 0 0 10px 0;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    p,
+    a {
+        font-size: 10px;
+    }
+
+    header,
+    section,
+    header img {
+        width: 100%;
+    }
+
+    /*FIM ESTILOS GLOBAIS*/
+
+}
+
+/*FIM MEDIA QUERIES DISPOSITIVOS ENTRE 320PX ATÉ 425PX*/
+
+/*INICIO MEDIA QUERIES DISPOSITIVOS ENTRE 426PX ATÉ 768PX*/
+@media (min-width: 426px) and (max-width: 768px) {
+    header h1 {
+        font-size: 21px;
+        margin: 0 0 10px 0;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p,
+    a {
+        font-size: 12px;
+    }
+
+    header,
+    section,
+    header img {
+        width: 100%;
+    }
+}
+
+/*FIM MEDIA QUERIES DISPOSITIVOS ENTRE 426PX ATÉ 768PX*/
+
+/*INICIO MEDIA QUERIES DISPOSITOS ENTRE 769PX ATÉ 1024PX*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 23px;
+        margin: 0 0 10px 0;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p,
+    a {
+        font-size: 14px;
+    }
+
+    header,
+    section {
+        width: 80%;
+    }
+
+    header img {
+        width: 100%;
+    }
+}
+
+/*FIM MEDIA QUERIES DISPOSITOS ENTRE 769PX ATÉ 1024PX*/
